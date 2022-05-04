@@ -1,0 +1,25 @@
+.nav_colored{
+    // background-color: aliceblue;
+}
+
+.nav_item{
+    padding: .5rem;
+}
+.nav_item{
+    position: relative;
+}
+.nav_item::after{
+    content: '';
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    width: 0%;
+    height :4px;
+    border-radius: 10px;
+    background-color: $primary-green; 
+    transition: all 0.3s;
+}
+
+.nav_item:hover::after , .active_link::after{
+    width: 100%;
+}

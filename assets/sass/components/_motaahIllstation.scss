@@ -1,0 +1,112 @@
+
+.illstration_warrper{
+    position: absolute;
+    top:40%;
+    right: 0%;
+    transform: translate(20% , -70%);
+    z-index: 1;
+}
+.motaah_illstration
+{
+    --core-size: 72%;
+    --sm-size: 60%;
+    --md-size: 40%;
+    --lg-size: 48%;
+    --xl-size: 30%;
+    --parant-size : #{$motaah-lg};
+    position: relative;
+    top: 50px;
+    left: 30%;
+    transform: translateX(-50%);
+    width: var(--parant-size);
+    height: var(--parant-size);
+}
+.motaah-circle__gray , .motaah-core{
+    position: absolute;
+    width: var(--parant-size);
+    height:var(--parant-size);
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    // animation-name: spreed;
+    // animation-duration: 5s;
+    // animation-iteration-count: infinite;
+    // animation-timing-function:ease-out;
+    // animation-direction: normal;
+    
+}
+.motaah-circle__gray
+{
+    animation: 2.2s spreed infinite;
+    width : 120%;
+    height: 120%;
+}
+.motaah-circle__gray.black{
+    border: 2px solid $motaah-circile-color-black;
+}
+.motaah-circle__gray.red{
+    border: 2px solid red;
+}
+.motaah-circle__gray.green{
+    border: 2px solid green;
+}
+.motaah-circle__gray.blue{
+    border: 2px solid blue;
+}
+.motaah-circle__gray.white{
+    border: 2px solid white;
+}
+
+.motaah-circle__gray.sm{
+    animation-delay: 0.5s;
+}
+.motaah-circle__gray.md{
+    animation-delay: 1s;
+}
+.motaah-circle__gray.lg{
+    animation-delay: 1.3s;
+}
+.motaah-circle__gray.xl{
+    animation-delay: 2s;
+}
+
+.motaah-core{
+    width :  calc( var(--parant-size ) / 3);
+    height:  calc( var(--parant-size ) / 3);
+    background-color: $primary-green;
+    top: 50%;
+    right: 50%;
+    transform: translate(20%, -20%);
+}
+
+@keyframes spreed {
+    from {
+      transform: scale(0);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1);
+    //   width: 2rem;
+      opacity: 0;
+    }
+  }
+  
+//   .multi-ripple {
+//     width: 2.6rem;
+//     height: 2.6rem;
+//     margin: 2rem;
+  
+//     div {
+//       position: absolute;
+//       width: 2rem;
+//       height: 2rem;
+//       border-radius: 50%;
+//       border: 0.3rem solid $bluebell;
+//       animation: 1.5s ripple infinite;
+  
+//       &:nth-child(2) {
+//         animation-delay: 0.5s;
+//       }
+//     }
+//   }

@@ -1,0 +1,15 @@
+{
+  "name": "motaah",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pre:css":" npx tailwindcss -i assets/css/tailwind.css -o ./dist/css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.5"
+  }
+}

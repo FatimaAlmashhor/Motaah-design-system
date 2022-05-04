@@ -1,0 +1,81 @@
+
+.mo-btn{
+    padding : .5rem 1.5rem ;
+    color: white;
+    background-color: $primary-blue;
+    border-radius: 9999px;
+    transition: all 0.4s ease-out;
+    z-index: 100 !important;
+}
+.btn-light-pink-rounderd{
+    background-color: transparent;
+    border: 1.9px solid $primary-light-pink;
+}
+.btn-light-pink-bg{
+    background-color: $primary-light-pink;
+    color: black;
+}
+
+.btn-light-pink-rounderd:hover{
+    background-color: $primary-light-pink;
+    color: black;
+}
+.btn-light-pink-bg:hover{
+    background-color:transparent;
+    color: white;
+    border: 1.9px solid $primary-light-pink;
+}
+
+
+.btn-blue-bg{
+    background-color: $primary-blue;
+    color: white;
+}
+
+.btn-blue-bg:hover{
+    background-color: transparent;
+    color: black;
+    outline: 1.9px solid $primary-blue;
+    outline-offset: -1.3px;
+}
+
+.btn-blue-rounderd{
+    background-color: transparent;
+    color: black;
+    border: 1.9px solid $primary-blue;
+}
+
+
+.btn-blue-rounderd:hover{
+    background-color : $primary-blue ;
+    color: white;
+}
+
+
+
+
+.btn-pink-bg{
+    background-color: $primary-pink;
+    color: white;
+}
+
+.btn-pink-bg:hover{
+    background-color: transparent;
+    color: black;
+    outline: 1.9px solid $primary-pink;
+    outline-offset: -1.3px;
+}
+
+.btn-pink-rounderd{
+    background-color: transparent;
+    color: black;
+    border: 1.9px solid $primary-pink;
+}
+
+
+.btn-pink-rounderd:hover{
+    background-color : $primary-pink ;
+    color: white;
+}
+
+
